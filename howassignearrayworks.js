@@ -31,3 +31,15 @@ let arrThree =[1,2,3,55]
 let arrFive =[1,2,3,55]
 
 console.log(arrThree === arrFive)
+
+
+//ASSIGNING OF ARRAYS 3 (Fuck ME!!!)
+let arr1 = [1,2,3,4,5]
+let arr2 = arr1
+let arr3 = arr2
+
+console.log(arr1,arr2,arr3)
+
+arr2 =["new","shits","here"]
+
+console.log(arr1,arr2,arr3)
